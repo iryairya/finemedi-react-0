@@ -48,7 +48,7 @@ function App({ Component, pageProps }) {
                             <br />
                             감사합니다.
                             <br />
-                            문의전화 : 1688-1688
+                            문의전화 : 010-5568-8202
                         </p>
                     </div>
                 </div>
