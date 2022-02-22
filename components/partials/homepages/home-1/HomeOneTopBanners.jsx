@@ -31,33 +31,35 @@ const HomeOneTopBanners = () => {
                             <div className="ps-banner__block">
                                 <div className="ps-banner__content">
                                     <h2 className="ps-banner__title">
-                                        Candid <br /> Whitening Kit
+                                        Krober 02-4.0
                                     </h2>
                                     <div className="ps-banner__desc">
-                                        Only in this week. Don’t misss!
+                                        프리미엄 의료용산소발생기
                                     </div>
+                                    {/**
                                     <div className="ps-banner__price">
                                         <span>$15.99</span>
                                         <del>$29.99</del>
-                                    </div>
+                                    </div> */}
                                     <a
                                         className="bg-warning ps-banner__shop"
                                         href="#">
-                                        Shop now
+                                        자세히보기
                                     </a>
+                                    {/**
                                     <div className="ps-banner__persen bg-warning ps-center">
                                         -30%
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div className="ps-banner__thumnail">
                                     <img
                                         className="ps-banner__round"
-                                        src="/static/img/round2.png"
+                                        src="/static/img/round5.png"
                                         alt="alt"
                                     />
                                     <img
                                         className="ps-banner__image"
-                                        src="/static/img/promotion/slide1.png"
+                                        src="/static/img/banners/KROBER.png"
                                         alt="alt"
                                     />
                                 </div>
@@ -73,12 +75,11 @@ const HomeOneTopBanners = () => {
                             <div className="ps-banner__block">
                                 <div className="ps-banner__content">
                                     <h2 className="ps-banner__title">
-                                        Antibacterial
-                                        <br /> Medical Mask
+                                        산소포화도
+                                        <br /> 측정기
                                     </h2>
                                     <div className="ps-banner__desc">
-                                        Just a few seconds to measure your body
-                                        temperature.
+                                        휴대용/알람기능
                                     </div>
                                     <div className="ps-banner__btn-group">
                                         <div className="ps-banner__btn">
@@ -99,7 +100,7 @@ const HomeOneTopBanners = () => {
                                     <a
                                         className="bg-warning ps-banner__shop"
                                         href="#">
-                                        Shop now
+                                        자세히보기
                                     </a>
                                     <div className="ps-banner__persen bg-yellow ps-top">
                                         <small>only</small>$25

@@ -10,12 +10,12 @@ export const stickyHeader = () => {
         document.documentElement.scrollTop ||
         document.body.scrollTop ||
         0;
-    const header = document.getElementById('header-sticky');
+    const header = document.getElementById("header-sticky");
     if (header !== null) {
         if (number >= 300) {
-            header.classList.add('header--sticky');
+            header.classList.add("header--sticky");
         } else {
-            header.classList.remove('header--sticky');
+            header.classList.remove("header--sticky");
         }
     }
 };
@@ -26,12 +26,12 @@ export const stickyHeaderModile = () => {
         document.documentElement.scrollTop ||
         document.body.scrollTop ||
         0;
-    const header = document.getElementById('header-sticky-mobile');
+    const header = document.getElementById("header-sticky-mobile");
     if (header !== null) {
         if (number >= 300) {
-            header.classList.add('header--sticky');
+            header.classList.add("header--sticky");
         } else {
-            header.classList.remove('header--sticky');
+            header.classList.remove("header--sticky");
         }
     }
 };

@@ -5,6 +5,7 @@ import ModuleHeaderNotice from "~/components/shared/headers/modules/ModuleHeader
 import NavigationPrimary from "~/components/shared/navigations/NavigationPrimary";
 import Logo from "~/components/elements/basic/Logo";
 import ModuleHeaderSwichers from "~/components/shared/headers/modules/ModuleHeaderSwitcher";
+import ModuleHeaderContactNumber from "~/components/shared/headers/modules/ModuleHeaderContactNumber";
 
 const HeaderDefault = ({ classes = "" }) => {
     const [showNav, setShowNav] = useState(true);
@@ -52,25 +53,15 @@ const HeaderDefault = ({ classes = "" }) => {
                 <div className="container">
                     <div className="header__left">
                         <Logo />
-                        <a
-                            href="#"
-                            className="header__top-toggle"
-                            onClick={(e) => handleShownav(e)}>
-                            <i className="fa fa-bars"></i>
-                        </a>
                     </div>
-                    <div className="header__center">
-                        <div className="ps-header__search">
-                            <FormSearchHeader />
-                        </div>
+                    <div
+                        className={`header__center ${showNav ? "active" : ""}`}>
+                        <NavigationPrimary />
                     </div>
                     <div className="header__right">
-                        <ModuleHeaderActions />
+                        <ModuleHeaderContactNumber />
                     </div>
                 </div>
-            </div>
-            <div className={`header__bottom ${showNav ? "active" : ""}`}>
-                <NavigationPrimary />
             </div>
         </header>
     );

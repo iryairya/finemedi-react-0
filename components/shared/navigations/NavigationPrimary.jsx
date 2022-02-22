@@ -10,18 +10,23 @@ const NavigationPrimary = () => {
         <nav className="navigation--primary">
             <div className="container">
                 <div className="navigation__left">
+                    {/** }
                     <ModuleHeaderCategories />
                     <ModuleHeaderSupplies />
+                    { */}
                     <div className="navigation__menu">
                         <Menu
                             source={menu.main_menu}
                             className="menu menu--desktop"
                         />
                     </div>
+                    <ModuleHeaderCategories />
                 </div>
+                {/** }
                 <div className="navigation__right">
                     <ModuleHeaderContactNumber />
                 </div>
+                {/** */}
             </div>
         </nav>
     );

@@ -8,7 +8,7 @@ const ModuleHeaderCategories = () => {
         <div className="header__categories ps-dropdown--fullscreen">
             <button className="header__categories-toggle">
                 <i className="fa fa-bars"></i>
-                <span>Products</span>
+                <span>전체</span>
             </button>
             <div className="ps-dropdown__content">
                 <div className="container">

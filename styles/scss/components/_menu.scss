@@ -109,15 +109,15 @@
         z-index: 2;
         left: 40px;
         top: 40px;
-        max-width: calc( 100% - 40px );
-        max-height: calc( 100% - 40px );
+        max-width: calc(100% - 40px);
+        max-height: calc(100% - 40px);
     }
 
     &__product {
         border-radius: 4px;
         border: 3px solid $color-warning;
         padding-top: 20px;
-        
+
         .ps-countdown__days {
             display: none;
         }
@@ -202,7 +202,7 @@
     }
 
     @media (min-width: 1200px) {
-        transition: all .4s ease;
+        transition: all 0.4s ease;
     }
 
     @media (min-width: 1280px) {
@@ -224,11 +224,11 @@
     z-index: 1000;
     transition: all 0.25s ease;
     border: 1px solid #eee;
-    background-color: rgba(#fff, .95);
+    background-color: rgba(#fff, 0.95);
     @include hidden;
 
     &:before {
-        content: '';
+        content: "";
         position: absolute;
         bottom: 100%;
         left: 50%;
@@ -247,7 +247,7 @@
             font-size: 17px;
             color: $color-1st;
             text-transform: capitalize;
-            transition: all .8s $ease-out-expo;
+            transition: all 0.8s $ease-out-expo;
 
             &:hover {
                 color: $color-1st;
@@ -281,7 +281,6 @@
             }
         }
     }
-
 }
 
 .menu {
@@ -343,7 +342,6 @@
         }
 
         &.has-mega-menu {
-
             .mega-menu {
                 position: absolute;
                 top: 99%;
@@ -380,7 +378,6 @@
 }
 
 .menu--mobile {
-
     .sub-menu {
         position: relative;
         display: none;
@@ -462,7 +459,7 @@
     height: 100vh;
     z-index: 999;
     @include transform-style(preserve-3d);
-    transition: all .75s $timing-1;
+    transition: all 0.75s $timing-1;
     overflow-y: auto;
     background-color: white;
     @extend %list-reset;
@@ -513,7 +510,6 @@
             min-width: fit-content;
 
             li {
-                
                 a {
                     color: $color-contrast;
                     font-size: 14px;
@@ -532,7 +528,7 @@
     .nav-item {
         display: inline-block;
         line-height: 32px;
-        border-right: 1px solid rgba(217,222,232,1);
+        border-right: 1px solid rgba(217, 222, 232, 1);
 
         a {
             font-size: 14px;

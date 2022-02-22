@@ -204,7 +204,8 @@
     @media (min-width: 768px) {
         height: 320px;
         min-height: 320px !important;
-        .container, .container-no-round {
+        .container,
+        .container-no-round {
             height: 100%;
         }
 
@@ -348,15 +349,19 @@
 
     @keyframes cssAnimation {
         to {
-            width:0;
-            height:0;
-            overflow:hidden;
+            width: 0;
+            height: 0;
+            overflow: hidden;
         }
     }
 
     @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
     }
 
     .owl-nav {
@@ -378,7 +383,7 @@
 
 .ps-banner--round {
     overflow: hidden;
-    background-color: #F0F2F5;
+    background-color: #f0f2f5;
     border-radius: 4px;
 
     .ps-banner__content {
@@ -506,7 +511,7 @@
         }
 
         .owl-next {
-            margin-right: 0;  
+            margin-right: 0;
         }
     }
 
@@ -600,7 +605,8 @@
             color: $color-warning !important;
 
             img {
-                filter: invert(60%) sepia(75%) saturate(1000%) hue-rotate(360deg) brightness(100%) contrast(100%);
+                filter: invert(60%) sepia(75%) saturate(1000%)
+                    hue-rotate(360deg) brightness(100%) contrast(100%);
             }
         }
     }
@@ -622,7 +628,7 @@
                 padding-top: 50px !important;
             }
 
-            .ps-banner__persen  {
+            .ps-banner__persen {
                 width: 134px;
                 height: 134px;
                 line-height: 134px;
@@ -651,11 +657,11 @@
             .ps-banner__content {
                 text-align: left;
                 width: 50%;
-                flex: 0 0 50%; 
-                padding-top: 0 !important;  
+                flex: 0 0 50%;
+                padding-top: 0 !important;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;        
+                justify-content: center;
             }
 
             .ps-banner__shop {
@@ -727,7 +733,9 @@
             font-size: 36px;
         }
 
-        .ps-banner__title, .ps-banner__desc, .ps-banner__btn {
+        .ps-banner__title,
+        .ps-banner__desc,
+        .ps-banner__btn {
             margin-bottom: 15px;
         }
 
@@ -773,7 +781,7 @@
         }
 
         &::after {
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             left: 100%;
@@ -812,7 +820,7 @@
             height: auto;
             position: initial;
             margin-top: -100px;
-            
+
             .ps-banner__title {
                 font-size: 39px;
             }
@@ -837,7 +845,7 @@
 
     @media (min-width: 1280px) {
         height: calc(100vh - 65px);
-        
+
         .ps-banner__item {
             p {
                 font-size: 20px;
@@ -884,7 +892,8 @@
         left: 35%;
     }
 
-    .ps-banner__thumnail, .ps-banner__block {
+    .ps-banner__thumnail,
+    .ps-banner__block {
         position: initial;
     }
 
@@ -979,7 +988,8 @@
 
     @media (min-width: 992px) {
         .ps-banner {
-            .ps-banner__content, .ps-banner__thumnail {
+            .ps-banner__content,
+            .ps-banner__thumnail {
                 flex: 0 0 50%;
                 width: 50%;
             }
@@ -998,7 +1008,8 @@
                 padding-right: 30px;
             }
 
-            .ps-banner__content, .ps-banner__thumnail {
+            .ps-banner__content,
+            .ps-banner__thumnail {
                 flex: 0 0 50%;
                 width: 50%;
             }
