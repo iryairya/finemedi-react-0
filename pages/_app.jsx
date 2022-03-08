@@ -48,8 +48,8 @@ function App({ Component, pageProps }) {
                             <br />
                             감사합니다.
                             <br />
-                            문의 : fineman@finemedi.kr, 031-772-5282,
-                            010-5568-8202
+                            문의 : fineman@finemedi.kr
+                            <br /> 031-772-5282, 010-5568-8202
                         </p>
                     </div>
                 </div>
